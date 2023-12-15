@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Kill Projections</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: wheat;
+        color: black;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: thistle;
+      }
+
+      th {
+        background-color: plum;
+      }
+      
+      th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px;
+      }
+
+      tr:hover {
+        background-color: LavenderBlush;
+      }
+
+      h2 {
+          text-align: center;
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>LoL Kill Projections</h2>
+        {{ table_html | safe }}
+    </div>
+</body>
+</html>
